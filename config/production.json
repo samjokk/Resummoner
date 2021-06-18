@@ -1,0 +1,95 @@
+{
+    "port": 80,
+    "sleepTime": 0,
+    "mongoURI": "mongodb+srv://samjokk:89166862667a@Cluster0.dla43.mongodb.net/resummoner?retryWrites=true&w=majority",
+    "startDateMonth": "1615010083",
+    "startDateYear": "1586376950",
+    "login": "samjokk",
+    "password": "89166862667a",
+    "idsCommunity": {
+        "meduza": "-76982440",
+        "echoMoscow": "-60556804",
+        "lentach": "-29534144",
+        "antimaidan": "-41232698",
+        "kommersant": "-23482909",
+        "rbk": "-25232578",
+        "vedomosti": "-15548215",
+        "izvestia": "-27532693",
+        "rianovosti": "-15755094",
+        "vesti": "-24136539"
+    },
+    "sourcesComparison": {
+        "1": "-76982440",
+        "2": "-60556804",
+        "3": "-29534144",
+        "4": "-23482909",
+        "5": "-27532693",
+        "6": "-25232578",
+        "7": "-15548215",
+        "8": "-15755094",
+        "9": "-24136539",
+        "10": "-41232698"
+    },
+    "offset": "&offset=",
+    "linkCommunity": "&owner_id=",
+    "linkPost": "&post_id=",
+    "needLikes": "&need_likes=1",
+    "linkComment": "&comment_id=",
+    "getPostsURL": "https://api.vk.com/method/wall.get?v=5.130&access_token=d1b1ed34d1b1ed34d1b1ed340ed1c752eedd1b1d1b1ed34b1ddfc0b5a2239bc4d669f4c&count=100",
+    "requestGetCommentsURL": "https://api.vk.com/method/wall.getComments?v=5.130&access_token=d1b1ed34d1b1ed34d1b1ed340ed1c752eedd1b1d1b1ed34b1ddfc0b5a2239bc4d669f4c&count=100",
+    "getPostsByIdURL": "https://api.vk.com/method/wall.getById?v=5.130&access_token=d1b1ed34d1b1ed34d1b1ed340ed1c752eedd1b1d1b1ed34b1ddfc0b5a2239bc4d669f4c&posts=",
+    "databaseName": "resummoner",
+    "collectionName": "Posts",
+    "themes": [
+        [
+            "Навальн",
+            "овичок",
+            "травлени",
+            "Шарите",
+            "Омск",
+            "Герман"
+        ],
+        [
+            "Конституци",
+            "оправ",
+            "олосовани",
+            "Путин"
+        ],
+        [
+            "Беларус",
+            "Белорусс",
+            "Лукашенко",
+            "Тихановск",
+            "ротест",
+            "ихар",
+            "бчб"
+        ],
+        [
+            "ыбор",
+            "Байден",
+            "Трамп",
+            "Джоргенсен",
+            "Хокинс",
+            "США",
+            "еспубликанц",
+            "емократ",
+            "Пенс",
+            "Помпео"
+        ],
+        [
+            "Карабах",
+            "Арцах",
+            "Армени",
+            "ойн",
+            "Азербайджан",
+            "Алиев",
+            "Ереван",
+            "Баку"
+        ]
+    ],
+    "newThemes": [
+        "Польш"
+    ],
+    "jwtToken": "LJygreYmr0IazuWD9ivfa6sutaGIDuOw2QasVUzmmWzW1bCMUkgadjQonXb80lf6er",
+    "mongoUri": "mongodb://asumi:5247tima@79.143.31.251:27017"
+}

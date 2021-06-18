@@ -1,0 +1,144 @@
+:root {
+    --clr-standart: #34365C;
+    --clr-standart-0: rgba(52, 54, 92, 0);
+    --clr-windows: #FFFFFF;
+    --clr-placeholder: #B2B2B2;
+
+    --clr-brd: #ABAAB8;
+    --clr-brd-fcs: #a09fac;
+
+    --clr-scrl-thumb: #D9D8E9;
+    --clr-scrl-bar: #EFEEF8;
+    
+
+    --clr-msg-modal: rgba(20, 20, 20, 0.9);
+    --clr-msg-modal-hover: rgba(30, 30, 30, 0.9);
+    
+    --fnt-nav-1: 28px;
+    --fnt-nav-2: 24px;
+    --fnt-nav-3: 20.6px;
+    --fnt-nav-4: 18.5px;
+
+    --fnt-prfl-1: 44px;
+    --fnt-prfl-2: 30px;
+    --fnt-prfl-3: 20px;
+
+    --fnt-standart: 28px;
+    --fnt-size-1: 30px;
+    --fnt-size-2: 26px;
+    --fnt-size-3: 18px;
+    --fnt-size-4: 16px;
+    --fnt-size-5: 14px;
+
+    --fnt-post-1: 35px;
+    --fnt-post-2: 26px;
+
+    --fnt-size-3-2: 17px;
+
+    --ln-hght-mini: 22px;
+}
+
+.button, 
+.button:active, 
+.button:focus {
+    outline: none;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.container {
+    width: 77vw;
+    height: 100vh;
+}
+
+.cpointer {
+    cursor: pointer;
+}
+
+input,
+input:active,
+input:focus {
+    outline: none;
+}
+
+.inp {
+    min-width: 100px;
+    width: 320px;
+    height: 50px;
+    padding-left: 24px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: var(--ln-hght-mini);
+    border: 1px solid var(--clr-brd);
+}
+  
+.inp::placeholder {
+    color: var(--clr-placeholder);
+    transition: .2s;
+}
+  
+.inp:focus {
+    border-color: var(--clr-brd-fcs);
+}
+  
+.inp:focus::placeholder {
+    opacity: 0;
+}
+
+.inp:disabled {
+    background-color: rgb(240, 240, 240);
+}
+
+.buttonwave {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.buttonwave span {
+    position: absolute;
+    background: white;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    border-radius: 50%;
+    animation: wavespan 1s linear infinite;
+}
+
+@keyframes wavespan {
+    0% {
+        width: 0px;
+        height: 0px;
+        opacity: 0.45;
+    }
+    100% {
+        width: 500px;
+        height: 500px;
+        opacity: 0;
+    }
+}
+
+@media (max-width: 1270px) {
+    #home_container {
+        height: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 80vw;
+    }
+
+    .Charts {
+        display: none !important;
+    }
+
+    .analysis_container {
+        display: none !important;
+    }
+}

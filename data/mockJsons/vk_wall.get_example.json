@@ -1,0 +1,507 @@
+{
+  "response": {
+    "count": 73735,
+    "items": [
+      {
+        "id": 4900896,
+        "from_id": -76982440,
+        "owner_id": -76982440,
+        "date": 1615013041,
+        "marked_as_ads": 0,
+        "post_type": "post",
+        "text": "Галина Юзефович — о дебютном романе американской писательницы Кейт Элизабет Рассел «Моя темная Ванесса», который можно рассматривать как своего рода энциклопедию травмы. Главной героине — 32 года. В 15 она вступила в связь со взрослым преподавателем в престижной школе-интернате, и это сильно повлияло на ее жизнь.",
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "https://meduza.io/feature/2021/03/06/moya-temnaya-vanessa-roman-o-svyazi-vzroslogo-muzhchiny-s-devushkoy-podrostkom",
+              "title": "«Моя темная Ванесса» — роман о связи взрослого мужчины с девушкой-подростком Автор задает вопросы, на которые читателю будет непросто ответить — Meduza",
+              "caption": "meduza.io",
+              "description": "Литературный критик Галина Юзефович рассказывает о дебютном романе американской писательницы Кейт Элизабет Рассел «Моя темная Ванесса». Главной героине Ванессе 32 года. В 15 она вступила в связь со взрослым преподавателем в престижной школе-интернате, и это сильно повлияло на ее жизнь. Все эти годы она вспоминает эту ситуацию снова и снова, пытаясь понять, что же тогда произошло — и есть ли в этой истории виноватые.",
+              "photo": {
+                "album_id": -27,
+                "date": 1615013045,
+                "id": 457331264,
+                "owner_id": 2000055696,
+                "has_tags": false,
+                "sizes": [
+                  {
+                    "height": 480,
+                    "url": "https://sun1-88.userapi.com/c850608/v850608000/1d738b/zrFS-an-9ac.jpg",
+                    "type": "temp",
+                    "width": 1074
+                  },
+                  {
+                    "height": 35,
+                    "url": "https://sun9-76.userapi.com/impg/c850608/v850608000/1d7391/Wfzz63N5D7A.jpg?size=75x35&quality=96&crop=22,0,1029,480&sign=7684a4dd63b8cbda81934c7288f2bf1f&c_uniq_tag=pOB0Zxv2l6ZlWGBZ7akKVqwkWOS46S_nDLRITBAVYUw&type=share",
+                    "type": "s",
+                    "width": 75
+                  },
+                  {
+                    "height": 70,
+                    "url": "https://sun9-76.userapi.com/impg/c850608/v850608000/1d7391/Wfzz63N5D7A.jpg?size=130x80&quality=96&crop=147,0,780,480&sign=4125724054a1978a52236734844fdee8&c_uniq_tag=R2UERYmcuOXi13ocNuaV5l-oVPYEqtAAbIPVtBmnV4w&type=share",
+                    "type": "m",
+                    "width": 130
+                  },
+                  {
+                    "height": 80,
+                    "url": "https://sun9-76.userapi.com/impg/c850608/v850608000/1d7391/Wfzz63N5D7A.jpg?size=150x80&quality=96&crop=87,0,900,480&sign=ed80a795aae5d14e9fc2a017a25dbf12&c_uniq_tag=hLz8JCZ54SysHbqrlWsx-M5eHNzO0bx-3K2DQBrrNuI&type=share",
+                    "type": "x",
+                    "width": 150
+                  },
+                  {
+                    "height": 140,
+                    "url": "https://sun9-76.userapi.com/impg/c850608/v850608000/1d7391/Wfzz63N5D7A.jpg?size=260x140&quality=96&crop=91,0,891,480&sign=efb8b74b831d6e74273349313b15db2a&c_uniq_tag=xfh-W7Jw8BKnbf1RxjoIvluOGakQldEuWDUy5XjrixE&type=share",
+                    "type": "p",
+                    "width": 260
+                  },
+                  {
+                    "height": 240,
+                    "url": "https://sun9-76.userapi.com/impg/c850608/v850608000/1d7391/Wfzz63N5D7A.jpg?size=537x240&quality=96&sign=f9129c0b05b2c735c605c7e6ae8b7d1b&c_uniq_tag=5MtMghIWDPlQSwLfAAhmOIHdTDzW6FQ4DNehUAwtSCI&type=share",
+                    "type": "l",
+                    "width": 537
+                  },
+                  {
+                    "height": 480,
+                    "url": "https://sun9-76.userapi.com/impg/c850608/v850608000/1d7391/Wfzz63N5D7A.jpg?size=1074x480&quality=96&sign=f86954e70bf718f48fe786bdc65cdd28&c_uniq_tag=oBSViGl6KuWZBGzU8DYGjCc5we0uO6_fK3jnQKnRmCc&type=share",
+                    "type": "k",
+                    "width": 1074
+                  }
+                ],
+                "text": "",
+                "user_id": 100
+              },
+              "is_favorite": false
+            }
+          }
+        ],
+        "post_source": {
+          "type": "api"
+        },
+        "comments": {
+          "count": 41,
+          "can_post": 1,
+          "groups_can_post": true
+        },
+        "likes": {
+          "count": 35,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 32,
+          "user_reposted": 0
+        },
+        "views": {
+          "count": 17717
+        },
+        "is_favorite": false,
+        "donut": {
+          "is_donut": false
+        },
+        "short_text_rate": 0.8
+      },
+      {
+        "id": 4900704,
+        "from_id": -76982440,
+        "owner_id": -76982440,
+        "date": 1615006423,
+        "marked_as_ads": 0,
+        "post_type": "post",
+        "text": "В России стало двумя долларовыми миллиардерами больше",
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "https://meduza.io/news/2021/03/06/osnovateli-seti-magazinov-fix-price-stali-milliarderami-posle-vyhoda-kompanii-na-ipo",
+              "title": "Основатели сети магазинов Fix Price стали миллиардерами после выхода компании на IPO — Meduza",
+              "caption": "meduza.io",
+              "description": "Совладельцы сети магазинов фиксированных низких цен Fix Price Артем Хачатрян и Сергей Ломакин стали долларовыми миллиардерами после выхода компании на IPO (первичное публичное размещение акций). Об этом свидетельствуют подсчеты Forbes.",
+              "photo": {
+                "album_id": -25,
+                "date": 1615006425,
+                "id": 457328611,
+                "owner_id": 2000055920,
+                "has_tags": false,
+                "sizes": [
+                  {
+                    "height": 480,
+                    "url": "https://sun1-97.userapi.com/c857536/v857536214/240617/eSwlayS-XCY.jpg",
+                    "type": "temp",
+                    "width": 1074
+                  },
+                  {
+                    "height": 35,
+                    "url": "https://sun9-58.userapi.com/impg/c857536/v857536214/24061d/g8tf9IkQ5nY.jpg?size=75x35&quality=96&crop=22,0,1029,480&sign=12f1e045856ddb0f44c9f7481a4a61b7&c_uniq_tag=4_Wk1h36K9gv_6ffOIJ4HY-Du9Ye6ZCkhbhOnkRzE_c&type=share",
+                    "type": "s",
+                    "width": 75
+                  },
+                  {
+                    "height": 70,
+                    "url": "https://sun9-58.userapi.com/impg/c857536/v857536214/24061d/g8tf9IkQ5nY.jpg?size=130x80&quality=96&crop=147,0,780,480&sign=073a1af7050cbdb3722c748d26320deb&c_uniq_tag=GjCHOhbRcJW1VuQtoyBv3nUSj0kzGuaZKO9jZTS0ZFQ&type=share",
+                    "type": "m",
+                    "width": 130
+                  },
+                  {
+                    "height": 80,
+                    "url": "https://sun9-58.userapi.com/impg/c857536/v857536214/24061d/g8tf9IkQ5nY.jpg?size=150x80&quality=96&crop=87,0,900,480&sign=b53ae1016fe043cf912e5f8c53067bed&c_uniq_tag=Ra00K-1fvMi34eB-4r9pusS33PR6l7DOicgMYR1tpOQ&type=share",
+                    "type": "x",
+                    "width": 150
+                  },
+                  {
+                    "height": 140,
+                    "url": "https://sun9-58.userapi.com/impg/c857536/v857536214/24061d/g8tf9IkQ5nY.jpg?size=260x140&quality=96&crop=91,0,891,480&sign=d7abeeed59080119197253af282854ca&c_uniq_tag=_IHi27mtNo0efHz8CvLBxK3BcOXaMHpF_ASJXRPw6SA&type=share",
+                    "type": "p",
+                    "width": 260
+                  },
+                  {
+                    "height": 240,
+                    "url": "https://sun9-58.userapi.com/impg/c857536/v857536214/24061d/g8tf9IkQ5nY.jpg?size=537x240&quality=96&sign=799024d94f5cf83abecca2c75ad6882e&c_uniq_tag=pTHbc-EaYuoBo4YdpHHRIhpo3uxD9fpQamysmBbIES4&type=share",
+                    "type": "l",
+                    "width": 537
+                  },
+                  {
+                    "height": 480,
+                    "url": "https://sun9-58.userapi.com/impg/c857536/v857536214/24061d/g8tf9IkQ5nY.jpg?size=1074x480&quality=96&sign=2893a7ac58da479553e66cf5230b7db4&c_uniq_tag=GFtN_DyeFsGx0kutthlHQFoYhDH0C3Hl6q8yplfWL6k&type=share",
+                    "type": "k",
+                    "width": 1074
+                  }
+                ],
+                "text": "",
+                "user_id": 100
+              },
+              "is_favorite": false
+            }
+          }
+        ],
+        "post_source": {
+          "type": "api"
+        },
+        "comments": {
+          "count": 92,
+          "can_post": 1,
+          "groups_can_post": true
+        },
+        "likes": {
+          "count": 197,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 241,
+          "user_reposted": 0
+        },
+        "views": {
+          "count": 30601
+        },
+        "is_favorite": false,
+        "donut": {
+          "is_donut": false
+        },
+        "short_text_rate": 0.8
+      },
+      {
+        "id": 4900645,
+        "from_id": -76982440,
+        "owner_id": -76982440,
+        "date": 1615004023,
+        "marked_as_ads": 0,
+        "post_type": "post",
+        "text": "С апреля парковаться неправильно в Москве станет дороже",
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "https://meduza.io/news/2021/03/05/v-moskve-na-15-podorozhaet-evakuatsiya-nepravilno-priparkovannyh-avtomobiley",
+              "title": "С 5 апреля в Москве на 15% подорожает эвакуация автомобилей, припаркованных с нарушением правил дорожного движения, и их хранение на спецстоянке. Об этом сообщил московский департамент транспорта.",
+              "caption": "meduza.io",
+              "description": "С 5 апреля в Москве на 15% подорожает эвакуация автомобилей, припаркованных с нарушением правил дорожного движения, и их хранение на спецстоянке. Об этом сообщил московский департамент транспорта.",
+              "photo": {
+                "album_id": -26,
+                "date": 1615004026,
+                "id": 457334655,
+                "owner_id": 2000055375,
+                "has_tags": false,
+                "sizes": [
+                  {
+                    "height": 480,
+                    "url": "https://sun1-29.userapi.com/c858436/v858436214/23b491/w5HB2THDdrw.jpg",
+                    "type": "temp",
+                    "width": 1074
+                  },
+                  {
+                    "height": 35,
+                    "url": "https://sun9-34.userapi.com/impg/c858436/v858436214/23b497/euEHfw-S7pw.jpg?size=75x35&quality=96&crop=22,0,1029,480&sign=f347e0f659de4b7a392c002fca82c0ac&c_uniq_tag=YTee6TeIjC7fOYTVjOgnt-7vRSgOCRbYqMRRvHeTsF0&type=share",
+                    "type": "s",
+                    "width": 75
+                  },
+                  {
+                    "height": 70,
+                    "url": "https://sun9-34.userapi.com/impg/c858436/v858436214/23b497/euEHfw-S7pw.jpg?size=130x80&quality=96&crop=147,0,780,480&sign=295d7404abc59844602990a15a550284&c_uniq_tag=QRG95pv2IIoEDKFIkmCIAJinO-uRjrwpTW6_k3YALYU&type=share",
+                    "type": "m",
+                    "width": 130
+                  },
+                  {
+                    "height": 80,
+                    "url": "https://sun9-34.userapi.com/impg/c858436/v858436214/23b497/euEHfw-S7pw.jpg?size=150x80&quality=96&crop=87,0,900,480&sign=99472a8e624336fe525d97ff28f71e08&c_uniq_tag=IO_nN5nDMYDDX9mGdPIM8-952kSj404XmWXSMON22fI&type=share",
+                    "type": "x",
+                    "width": 150
+                  },
+                  {
+                    "height": 140,
+                    "url": "https://sun9-34.userapi.com/impg/c858436/v858436214/23b497/euEHfw-S7pw.jpg?size=260x140&quality=96&crop=91,0,891,480&sign=a83b9b293d1ba4b35fa744dc716ff060&c_uniq_tag=TgAZlKNtNn8tP_CAviU6b2XHx8A1SzGBRoSkHC-YV6U&type=share",
+                    "type": "p",
+                    "width": 260
+                  },
+                  {
+                    "height": 240,
+                    "url": "https://sun9-34.userapi.com/impg/c858436/v858436214/23b497/euEHfw-S7pw.jpg?size=537x240&quality=96&sign=a9a2318cc2c00a934c0aa0a3381281eb&c_uniq_tag=fRsao_VklIMDXvviQX5GlHMt4dfIvGlHqnQymwOScPs&type=share",
+                    "type": "l",
+                    "width": 537
+                  },
+                  {
+                    "height": 480,
+                    "url": "https://sun9-34.userapi.com/impg/c858436/v858436214/23b497/euEHfw-S7pw.jpg?size=1074x480&quality=96&sign=60a19e5d7c4c9683ada4fca47df2805c&c_uniq_tag=6Awc28PTlTATcq1R6iOqDOAo5riPyNh1BsxMJK464Pc&type=share",
+                    "type": "k",
+                    "width": 1074
+                  }
+                ],
+                "text": "",
+                "user_id": 100
+              },
+              "is_favorite": false
+            }
+          }
+        ],
+        "post_source": {
+          "type": "api"
+        },
+        "comments": {
+          "count": 28,
+          "can_post": 1,
+          "groups_can_post": true
+        },
+        "likes": {
+          "count": 67,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 37,
+          "user_reposted": 0
+        },
+        "views": {
+          "count": 26580
+        },
+        "is_favorite": false,
+        "donut": {
+          "is_donut": false
+        },
+        "short_text_rate": 0.8
+      },
+      {
+        "id": 4900579,
+        "from_id": -76982440,
+        "owner_id": -76982440,
+        "date": 1615001623,
+        "marked_as_ads": 0,
+        "post_type": "post",
+        "text": "Литва резко отказалась выдать Беларуси лидера белорусской оппозиции Светлану Тихановскую",
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "https://meduza.io/news/2021/03/05/skoree-ad-zamerznet-litva-otkazalas-vydat-belarusi-svetlanu-tihanovskuyu",
+              "title": "Литва не удовлетворит запрос Генпрокуратуры Беларуси об экстрадиции лидера белорусской оппозиции Светланы Тихановской. Об этом заявил глава литовского МИД Габриелюс Ландсбергис. Его комментарий опубликован на сайте ведомства.",
+              "caption": "meduza.io",
+              "description": "Литва не удовлетворит запрос Генпрокуратуры Беларуси об экстрадиции лидера белорусской оппозиции Светланы Тихановской. Об этом заявил глава литовского МИД Габриелюс Ландсбергис. Его комментарий опубликован на сайте ведомства.",
+              "photo": {
+                "album_id": -27,
+                "date": 1615001626,
+                "id": 457329345,
+                "owner_id": 2000055817,
+                "has_tags": false,
+                "sizes": [
+                  {
+                    "height": 480,
+                    "url": "https://sun1-18.userapi.com/c857636/v857636847/239630/0wAaySWxnHw.jpg",
+                    "type": "temp",
+                    "width": 1074
+                  },
+                  {
+                    "height": 35,
+                    "url": "https://sun1-20.userapi.com/impg/c857636/v857636847/239636/K3Kylg7vyfk.jpg?size=75x35&quality=96&crop=22,0,1029,480&sign=ce28324d0a232e031952456e97dc5dba&c_uniq_tag=Ui1lt-v1BsKVnS6zW-dhYPYkK6yAPblmXCC1sjw6uWw&type=share",
+                    "type": "s",
+                    "width": 75
+                  },
+                  {
+                    "height": 70,
+                    "url": "https://sun1-20.userapi.com/impg/c857636/v857636847/239636/K3Kylg7vyfk.jpg?size=130x80&quality=96&crop=147,0,780,480&sign=c603057a7564790f1e3ba31c86999e1d&c_uniq_tag=mqkqvJldSO3vsLa9VSnr6NXDKCE9d2b33l9hh_UL4WM&type=share",
+                    "type": "m",
+                    "width": 130
+                  },
+                  {
+                    "height": 80,
+                    "url": "https://sun1-20.userapi.com/impg/c857636/v857636847/239636/K3Kylg7vyfk.jpg?size=150x80&quality=96&crop=87,0,900,480&sign=0f8f387c2fabc7fb6b0e9e544ca319bd&c_uniq_tag=3butvuC9cEsnbQXzJ1IPYzWKo7xoxp_NewBplw0LEUk&type=share",
+                    "type": "x",
+                    "width": 150
+                  },
+                  {
+                    "height": 140,
+                    "url": "https://sun1-20.userapi.com/impg/c857636/v857636847/239636/K3Kylg7vyfk.jpg?size=260x140&quality=96&crop=91,0,891,480&sign=30259ff075532cf442b1ae5fd229dc79&c_uniq_tag=ULpxpg4gT5dCle-hv0eI9qxSNN-xSyfBb83310d9BwQ&type=share",
+                    "type": "p",
+                    "width": 260
+                  },
+                  {
+                    "height": 240,
+                    "url": "https://sun1-20.userapi.com/impg/c857636/v857636847/239636/K3Kylg7vyfk.jpg?size=537x240&quality=96&sign=d12245c33c879c4d8d1b65090156e094&c_uniq_tag=rYZU88Mi8rw_qoJGR5-rf5JJXXvQnH6QfyQiBXfM-SQ&type=share",
+                    "type": "l",
+                    "width": 537
+                  },
+                  {
+                    "height": 480,
+                    "url": "https://sun1-20.userapi.com/impg/c857636/v857636847/239636/K3Kylg7vyfk.jpg?size=1074x480&quality=96&sign=ac2e883411685ef980d3c00f62d29fb5&c_uniq_tag=UNasZBCDDF-AT0WUuboAM9fAg6lWtttO33icjRCXRH4&type=share",
+                    "type": "k",
+                    "width": 1074
+                  }
+                ],
+                "text": "",
+                "user_id": 100
+              },
+              "is_favorite": false
+            }
+          }
+        ],
+        "post_source": {
+          "type": "api"
+        },
+        "comments": {
+          "count": 96,
+          "can_post": 1,
+          "groups_can_post": true
+        },
+        "likes": {
+          "count": 429,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 42,
+          "user_reposted": 0
+        },
+        "views": {
+          "count": 27110
+        },
+        "is_favorite": false,
+        "donut": {
+          "is_donut": false
+        },
+        "short_text_rate": 0.8
+      },
+      {
+        "id": 4900537,
+        "from_id": -76982440,
+        "owner_id": -76982440,
+        "date": 1614999223,
+        "marked_as_ads": 0,
+        "post_type": "post",
+        "text": "Члены Общественной наблюдательной комиссии (ОНК) Москвы инициировали процесс исключения из комиссии Марины Литвинович.\n\nОдин из членов комиссии обвинил Литвинович в том, что она разгласила данные следствия по делу Любови Соболь. \n\nРечь идет про дело о нарушении неприкосновенности жилища, которое завели на Соболь после ее визита к Константину Кудрявцеву — одному из предполагаемых отравителей Навального.",
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "https://meduza.io/news/2021/03/05/chleny-onk-moskvy-progolosovali-za-isklyuchenie-iz-komissii-mariny-litvinovich-iz-za-razglasheniya-dannyh-sledstviya-po-delu-lyubovi-sobol",
+              "title": "Члены Общественной наблюдательной комиссии (ОНК) Москвы инициировали процесс исключения из комиссии правозащитницы Марины Литвинович. Об этом она сама сообщила в телеграме.",
+              "caption": "meduza.io",
+              "description": "Члены Общественной наблюдательной комиссии (ОНК) Москвы инициировали процесс исключения из комиссии правозащитницы Марины Литвинович. Об этом она сама сообщила в телеграме.",
+              "photo": {
+                "album_id": -28,
+                "date": 1614999226,
+                "id": 457335638,
+                "owner_id": 2000055313,
+                "has_tags": false,
+                "sizes": [
+                  {
+                    "height": 480,
+                    "url": "https://sun1-15.userapi.com/c855132/v855132592/2587e9/hPXpD3Dcoxw.jpg",
+                    "type": "temp",
+                    "width": 1074
+                  },
+                  {
+                    "height": 35,
+                    "url": "https://sun1-17.userapi.com/impg/c855132/v855132592/2587ef/_UV65wURkpc.jpg?size=75x35&quality=96&crop=22,0,1029,480&sign=d0ea3fac4aa8358e8477925a75aebade&c_uniq_tag=uKCmL-64IEewVdw_RRQwn3TqYbpRD849IBSXkcqxDHc&type=share",
+                    "type": "s",
+                    "width": 75
+                  },
+                  {
+                    "height": 70,
+                    "url": "https://sun1-17.userapi.com/impg/c855132/v855132592/2587ef/_UV65wURkpc.jpg?size=130x80&quality=96&crop=147,0,780,480&sign=4092dbd8c96c53f9b7644a9782d64065&c_uniq_tag=aEclWC6CzdBDdWjyyFpfKRMH-dxMf-5d6IbdJfIQ-zo&type=share",
+                    "type": "m",
+                    "width": 130
+                  },
+                  {
+                    "height": 80,
+                    "url": "https://sun1-17.userapi.com/impg/c855132/v855132592/2587ef/_UV65wURkpc.jpg?size=150x80&quality=96&crop=87,0,900,480&sign=3615e669dbbb5ba2af91930a76304b7c&c_uniq_tag=vBdv3OQ4fd8wvkClBcuADhEiSqqz0nbj1fyc0KhqR3g&type=share",
+                    "type": "x",
+                    "width": 150
+                  },
+                  {
+                    "height": 140,
+                    "url": "https://sun1-17.userapi.com/impg/c855132/v855132592/2587ef/_UV65wURkpc.jpg?size=260x140&quality=96&crop=91,0,891,480&sign=56dbd434be67dc5e69deb8153af628d5&c_uniq_tag=e40Z4-jTGSnMFVWvv2n2wKJ7kfS9Fmca7jTkCNRT_70&type=share",
+                    "type": "p",
+                    "width": 260
+                  },
+                  {
+                    "height": 240,
+                    "url": "https://sun1-17.userapi.com/impg/c855132/v855132592/2587ef/_UV65wURkpc.jpg?size=537x240&quality=96&sign=85fee7e9af865bdd7cb5e440ccbece0f&c_uniq_tag=UDoV7jZZNQcAqH3SWZvAv5-0nNUkVbylNoHhN3t_VI0&type=share",
+                    "type": "l",
+                    "width": 537
+                  },
+                  {
+                    "height": 480,
+                    "url": "https://sun1-17.userapi.com/impg/c855132/v855132592/2587ef/_UV65wURkpc.jpg?size=1074x480&quality=96&sign=65266208c8767a882763023a0eb1308f&c_uniq_tag=e-LABThF3-H1Isir2fJdkb7dPSQOy-3VXtMc73Nlu1M&type=share",
+                    "type": "k",
+                    "width": 1074
+                  }
+                ],
+                "text": "",
+                "user_id": 100
+              },
+              "is_favorite": false
+            }
+          }
+        ],
+        "post_source": {
+          "type": "api"
+        },
+        "comments": {
+          "count": 15,
+          "can_post": 1,
+          "groups_can_post": true
+        },
+        "likes": {
+          "count": 48,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 6,
+          "user_reposted": 0
+        },
+        "views": {
+          "count": 20893
+        },
+        "is_favorite": false,
+        "donut": {
+          "is_donut": false
+        },
+        "short_text_rate": 0.8
+      }
+    ]
+  }
+}
