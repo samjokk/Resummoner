@@ -93,7 +93,7 @@ class ContentCharts {
             posts[i].interest = new Array();
             posts[i].activity.push(0);
             posts[i].interest.push(0);
-            const activity = +((posts[i].likes / posts[i].views) * 1000).toFixed(3);
+            const activity = +(((posts[i].likes + posts[i].comments_count) / posts[i].views) * 1000).toFixed(3);
             this._averageActivity += activity;
             const interest = +((posts[i].comments_count / posts[i].views) * 1000).toFixed(3);
             this._averageInterest += interest;

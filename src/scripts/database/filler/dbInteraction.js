@@ -255,14 +255,12 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-async function example() { //ПРОВЕРИТЬ ПОВТОРЯЮЩИЕСЯ ПУБЛИКАЦИИ ПО АЙДИШНИКАМ
+async function example() {
     const database = new Database();
     await database.dbConnect();
     console.log('Подключились к бд!');
 
-    await database.deleteCopyPostsWithoutMetrics();
-
-    await database.randomCollection();
+    // await database.deleteCopyPostsWithoutMetrics();
 
     // await database.deleteFirstAndLastMonday();
     // console.log('Данные до первого понедельника и после последнего удалены');
@@ -272,9 +270,11 @@ async function example() { //ПРОВЕРИТЬ ПОВТОРЯЮЩИЕСЯ ПУ�
 
     //await database.addThemes(); //ДОРАБОТАТЬ
 
-    // const themes = config.get('themes');
-    // await database.fullDatabaseFillingForYear(themes);
-    // console.log('Публикации за год собраны!');
+    const themes = config.get('themes');
+    await database.fullDatabaseFillingForYear(themes);
+    console.log('Публикации за год собраны!');
+    
+    await database.randomCollection();
 
     // await database.copyCollection('collectionThemesCopy');
     // await database.randomCollection();
@@ -284,6 +284,6 @@ async function example() { //ПРОВЕРИТЬ ПОВТОРЯЮЩИЕСЯ ПУ�
     //     await database._getLengthAllObjectsFromSource(Number.parseInt(idsCommunity[idCommunity]));
     database._mongo.client.close();
 }
-// example();
+example();
 
 module.exports = { Database };

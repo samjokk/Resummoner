@@ -144,12 +144,13 @@ function writeJsonFile(path, object) {
 }
 
 async function example() {
+    console.log(123);
     const analysis = new ContentAnalysis();
-    await analysis.connectToDatabase();
-    await analysis.getAnalysisOfAllDays();
+    // await analysis.connectToDatabase();
+    // await analysis.getAnalysisOfAllDays();
 
-    // await analysis.calculateAllDayDates();
-    // await analysis.calculateAllWeakDates();
+    await analysis.calculateAllDayDates();
+    await analysis.calculateAllWeakDates();
     // analysis._database._mongo.client.close();
 }
 example();
