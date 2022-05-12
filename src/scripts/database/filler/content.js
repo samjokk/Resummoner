@@ -1,8 +1,7 @@
 const fetch = require('node-fetch');
-const config = require('config');
-const offset = config.get('offset');
-const linkCommunity = config.get('linkCommunity');
-const sleepTime = config.get('sleepTime');
+const offset = "&offset=";
+const linkCommunity = "&owner_id=";
+const sleepTime = 0;
 
 class Content {
     _countCount = 0;
@@ -28,7 +27,7 @@ class Content {
     async _get100Posts(idCommunity, countOffset, themes) {
         let posts = new Array();
         try {
-            const getPostsURL = config.get('getPostsURL');
+            const getPostsURL = "https://api.vk.com/method/wall.get?v=5.130&access_token=671ff4490eb0a43bf7deefed3c390b86acbe38200823b30e082c4dae22ac411b65a65f934f4b07055a6fa&count=100";
             await sleep(sleepTime);
             let response = await fetch(getPostsURL + linkCommunity + idCommunity + offset + (countOffset * 100));
             response = await response.json();
@@ -153,10 +152,10 @@ class Content {
     }
 
     async _getCommentsOnOnePost(idCommunity, idPost, countComments) {
-        const linkPost = config.get('linkPost');
-        const needLikes = config.get('needLikes');
-        const linkComment = config.get('linkComment');
-        const requestGetCommentsURL = config.get('requestGetCommentsURL');
+        const linkPost = "&post_id=";
+        const needLikes = "&need_likes=1";
+        const linkComment = "&comment_id=";
+        const requestGetCommentsURL = "https://api.vk.com/method/wall.getComments?v=5.130&access_token=671ff4490eb0a43bf7deefed3c390b86acbe38200823b30e082c4dae22ac411b65a65f934f4b07055a6fa&count=100";
         let commentBranches = new Array();
         let offsetComments = 0;
         try {
@@ -207,7 +206,34 @@ class Content {
     }
 
     async updateSavedPosts(objects, idCommunity) {
-        const themes = config.get('themes');
+        const themes = [
+            [
+                "ыбор",
+                "Государственн",
+                "Дум"
+            ],
+            [
+                "Байден",
+                "резидент",
+                "США",
+                "мерик",
+                "тат"
+            ],
+            [
+                "Олимпийски",
+                "гр",
+                "имни",
+                "едал",
+                "портсмен"
+            ],
+            [
+                "ризнани",
+                "ДНР",
+                "ЛНР",
+                "Донецкой",
+                "Луганской"
+            ]
+        ];
         objects = await this.selectionObjectsByDate(objects);
         console.log("Все публикации из источника " + idCommunity + " отсортированы и готовы к обновлению!");
         let posts = new Array();
@@ -224,7 +250,7 @@ class Content {
                 for (let i = requestCount - offset; i < requestCount; i++) requestIdsPosts += idCommunity + '_' + objects[i].id + ',';
                 requestIdsPosts = requestIdsPosts.substring(0, requestIdsPosts.length - 1);
                 //Запрашиваем обновлённые посты
-                const getPostsByIdURL = config.get('getPostsByIdURL');
+                const getPostsByIdURL = "https://api.vk.com/method/wall.getById?v=5.130&access_token=671ff4490eb0a43bf7deefed3c390b86acbe38200823b30e082c4dae22ac411b65a65f934f4b07055a6fa&posts=";
                 await sleep(sleepTime);
                 let response = await fetch(getPostsByIdURL + requestIdsPosts);
                 response = await response.json();
@@ -251,7 +277,7 @@ class Content {
     }
 
     async selectionObjectsByDate(objects) {
-        const startDate = config.get('startDateMonth')
+        const startDate = "1651363200";
         let sortedObjects = new Array();
         console.log("Объектов до сортировки по дате: " + objects.length);
         for (const object in objects)

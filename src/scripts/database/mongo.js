@@ -1,5 +1,4 @@
 const mongodb = require('mongodb');
-const config = require('config');
 
 class Mongo {
     constructor(dbName, collectionName) {
@@ -10,7 +9,7 @@ class Mongo {
     async connect() {
         try {
             const MongoClient = mongodb.MongoClient;
-            this._mongoClient = new MongoClient(config.get('mongoURI'), {
+            this._mongoClient = new MongoClient("mongodb://78.140.243.77:27017", {
                 useNewUrlParser: true,
                 useUnifiedTopology: true
             });

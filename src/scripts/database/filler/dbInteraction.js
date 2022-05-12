@@ -1,10 +1,18 @@
-const config = require('config');
-const idsCommunity = config.get('idsCommunity');
+const idsCommunity = {
+        "lentach": "-29534144",
+        "kommersant": "-23482909",
+        "izvestia": "-27532693",
+        "rbk": "-25232578",
+        "vedomosti": "-15548215",
+        "rianovosti": "-15755094",
+        "vesti": "-24136539",
+        "antimaidan": "-41232698"
+    };
 const { Mongo } = require('../mongo');
 
 class Database {
-    _dbName = config.get('databaseName');
-    _collectionName = config.get('collectionName');
+    _dbName = "resummoner";
+    _collectionName = "themes";
     _mongo;
 
     async dbConnect() {
@@ -13,7 +21,7 @@ class Database {
     }
 
     async fullDatabaseFillingForYear(themes) {
-        const startDate = config.get('startDateYear');
+        const startDate = "1620518400";
         const { Content } = require('./content.js');
         let countPosts = new Array();
         for (const idCommunity in idsCommunity) {
@@ -66,7 +74,34 @@ class Database {
 
             let dateIsOk = true;
             let countOffset = 0;
-            const themes = config.get('themes');
+            const themes = [
+                [
+                    "ыбор",
+                    "Государственн",
+                    "Дум"
+                ],
+                [
+                    "Байден",
+                    "резидент",
+                    "США",
+                    "мерик",
+                    "тат"
+                ],
+                [
+                    "Олимпийски",
+                    "гр",
+                    "имни",
+                    "едал",
+                    "портсмен"
+                ],
+                [
+                    "ризнани",
+                    "ДНР",
+                    "ЛНР",
+                    "Донецкой",
+                    "Луганской"
+                ]
+            ];
             let countPostsFromOneSource = 0; //Для отчётности
             while (dateIsOk) {
                 let objectsToDatabase = new Array();
@@ -141,9 +176,9 @@ class Database {
     }
 
     async addOneObjectOfAnalysis(dayAnalysis, weakAnalysis, monthAnalysis,) {
-        const collectionNameDayAnalysis = config.get('collectionNameDayAnalysis');
-        const collectionNameWeakAnalysis = config.get('collectionNameWeakAnalysis');
-        const collectionNameMonthAnalysis = config.get('collectionNameMonthAnalysis');
+        const collectionNameDayAnalysis = "DayAnalysis";
+        const collectionNameWeakAnalysis = "WeakAnalysis";
+        const collectionNameMonthAnalysis = "MonthAnalysis";
 
         this._mongo = new Mongo(this._dbName, collectionNameDayAnalysis);
         await this._mongo.connect();
@@ -192,22 +227,22 @@ class Database {
         await this.addMany(posts);
     }
 
-    async addThemes() { //Перед добавлением темы изменить default.json (newThemes прописать в themes, а далее в newThemes прописать нужные ключевые слова) //ДОДЕЛАТЬ И ПРОВЕРИТЬ
-        const numberNewTheme = config.get('themes').length + 1;
-        const newThemes = config.get('newThemes');
-        //Потом вернуть!!!
-        //await this.monthlyDataUpdate(); //Перед добавлением обновляем имеющиеся данные
-        const collection = await this._getAllObjects();
-        for (let i = 0; i < collection.length; i++) {
-            for (let j = 0; j < newThemes.length; j++)
-                if (collection[i].text.includes(newThemes[j])) {
-                    await this._updateOneTheme(collection[i].id, collection[i].owner_id, numberNewTheme + j);
-                }
-        }
-        console.log('Сохранённые публикации обновлены в связи с добавлением новых тем!');
-        await this.fullDatabaseFillingForYear(newThemes);
-        console.log('Добавлены новые публикации по новым темам!');
-    }
+    // async addThemes() { //Перед добавлением темы изменить default.json (newThemes прописать в themes, а далее в newThemes прописать нужные ключевые слова) //ДОДЕЛАТЬ И ПРОВЕРИТЬ
+    //     const numberNewTheme = config.get('themes').length + 1;
+    //     const newThemes = config.get('newThemes');
+    //     //Потом вернуть!!!
+    //     //await this.monthlyDataUpdate(); //Перед добавлением обновляем имеющиеся данные
+    //     const collection = await this._getAllObjects();
+    //     for (let i = 0; i < collection.length; i++) {
+    //         for (let j = 0; j < newThemes.length; j++)
+    //             if (collection[i].text.includes(newThemes[j])) {
+    //                 await this._updateOneTheme(collection[i].id, collection[i].owner_id, numberNewTheme + j);
+    //             }
+    //     }
+    //     console.log('Сохранённые публикации обновлены в связи с добавлением новых тем!');
+    //     await this.fullDatabaseFillingForYear(newThemes);
+    //     console.log('Добавлены новые публикации по новым темам!');
+    // }
 
     async randomCollection() {
         let objects = await this._getAllObjects();
@@ -235,8 +270,8 @@ class Database {
     }
 
     async deleteFirstAndLastMonday() {
-        const firstMonday = config.get('firstMonday');
-        const lastMonday = config.get('lastMonday');
+        const firstMonday = 1620518400;
+        const lastMonday = 1652054400;
         let objects = await this._getAllObjects();
         let newObjects = new Array();
         for (let i = 0; i < objects.length - 1; i++) {
@@ -270,18 +305,45 @@ async function example() {
 
     //await database.addThemes(); //ДОРАБОТАТЬ
 
-    const themes = config.get('themes');
+    const themes = [
+        [
+            "ыбор",
+            "Государственн",
+            "Дум"
+        ],
+        [
+            "Байден",
+            "резидент",
+            "США",
+            "мерик",
+            "тат"
+        ],
+        [
+            "Олимпийски",
+            "гр",
+            "имни",
+            "едал",
+            "портсмен"
+        ],
+        [
+            "ризнани",
+            "ДНР",
+            "ЛНР",
+            "Донецкой",
+            "Луганской"
+        ]
+    ];
     await database.fullDatabaseFillingForYear(themes);
     console.log('Публикации за год собраны!');
     
-    await database.randomCollection();
+    // await database.randomCollection();
 
     // await database.copyCollection('collectionThemesCopy');
     // await database.randomCollection();
 
-    // const idsCommunity = await config.get("idsCommunity");
-    // for (const idCommunity in idsCommunity)
+    // for (const idCommunity in idsCommunity) {
     //     await database._getLengthAllObjectsFromSource(Number.parseInt(idsCommunity[idCommunity]));
+    // }
     database._mongo.client.close();
 }
 example();
